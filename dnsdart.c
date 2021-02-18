@@ -11,7 +11,7 @@
 int main(int argc, char *argv[])
 {
     if(argv[1] == NULL) {
-    	printf("modo de uso ./dnsbart www.google.com\n"); //modo de uso
+    	printf("modo de uso ./dnsdart www.google.com\n"); //modo de uso
     } else {
        
        struct hostent *alvo = gethostbyname(argv[1]);
